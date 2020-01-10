@@ -33,7 +33,7 @@ let res = await post('/yourPath', params, { type: 'lte'});
 
 type参数有7种可选：
 
->```
+```
 lte : 展示loading动画，抛出异常，展示toast信息
 lt  : 展示loading动画，展示toast信息
 te  : 抛出异常，展示toast信息
