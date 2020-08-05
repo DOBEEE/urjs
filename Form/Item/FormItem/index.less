@@ -1,0 +1,69 @@
+@prefix: "argo-";
+.argo-form-item {
+  .argo-form-item-container-border-wrapper {
+    padding-left: 32rpx;
+    .argo-form-item-container-border {
+      border-bottom: 1rpx solid #eee;
+    }
+  }
+  .argo-form-item-container {
+    padding: 24rpx 32rpx;
+    padding-right: 32rpx;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    .argo-form-item-left-side {
+      flex: 1;
+      .argo-form-item-content {
+        margin-top: 12rpx;
+      }
+      .argo-form-item-label {
+        position: relative;
+        .argo-form-item-label-text {
+          font-family: PingFangSC-Regular;
+          font-size: 28rpx;
+          color: #323334;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+        .argo-form-item-label-text-readOnly {
+          color: #999;
+        }
+        .argo-form-item-required {
+          color: #f25643;
+          font-size: 32rpx;
+          position: absolute;
+          transform: translateX(-155%);
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          top: 0;
+        }
+      }
+    }
+    .argo-form-item-right-side {
+      .icon {
+        font-size: 28rpx;
+        color: #999;
+      }
+    }
+  }
+  .argo-form-item-alert {
+    background-color: #fdeae4;
+    color: #f44336;
+    font-size: 24rpx;
+    padding-left: 32rpx;
+  }
+}
+
+.argo-form-item-help {
+  background-color: transparent;
+  color: #aaa;
+  font-size: 24rpx;
+  padding-left: 32rpx;
+  padding-bottom: 12rpx;
+}
